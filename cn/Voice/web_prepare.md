@@ -103,9 +103,13 @@ updatedAt: Wed Nov 07 2018 09:56:15 GMT+0000 (UTC)
 
 ### 方法 2. 使用 CDN 方法获取安装包
 
-该方法无需在官网下载安装包。在项目相应的前端页面文件中，将 `<script src="http://cdn.agora.io/sdk/web/AgoraRTCSDK-2.4-latest.js"></script>` 添加到 `</body>` 上一行：
+该方法无需在官网下载安装包。在项目相应的前端页面文件中，将如下代码添加到 `</body>` 上一行：
 
-<img alt="../_images/web_sdk_cdn.png" src="https://web-cdn.agora.io/docs-files/cn/web_sdk_cdn.png" />
+
+	```javascript
+	<script src="http://cdn.agora.io/sdk/web/AgoraRTCSDK-2.4-latest.js"></script>
+	```
+
 
 ### 方法 3. 从官网获取安装包
 
